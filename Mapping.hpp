@@ -1,7 +1,7 @@
 /*******************************************************************************
  *      Base class for linear and nonlinear mapping functions.
  *
- *      These function implement three main nonlinear behaviours to map a
+ *      These functions implement three main nonlinear behaviours to map a
  *      float input in the [0.0; 1.0] range into an arbitrary [y0; y1] output.
  *      
  *      The three behaviours are:
@@ -20,14 +20,13 @@
  *      at the sides of the input range.
  *
  *      The tension values are limited to the following values:
- *          [-100.0, -.01] and [.01; 100.0]. A zero-tension value is
+ *          [-100.0; -.01] and [.01; 100.0]. A zero-tension value is
  *          essentially a linear curve.
  *
  *      The behaviour of the functions can be visualised here: 
  *          https://www.desmos.com/calculator/6hshyfcyzh.
  *
  *      Copyright (C) 2021 Dario Sanfilippo – sanfilippo.dario@gmail.com
- *
  ******************************************************************************/
 
 #include <iostream>
