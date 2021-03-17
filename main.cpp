@@ -41,7 +41,7 @@
 int main(void) {
     double low = 0.0;
     double high = 1.0;
-    double tension = -40.0;
+    double tension = 4.0;
     double steps = 10;
     double incr = 1.0 / (steps - 1.0);
     int i = 0;
